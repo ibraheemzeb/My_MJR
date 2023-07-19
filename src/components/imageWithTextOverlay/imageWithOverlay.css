@@ -1,0 +1,98 @@
+.bg-image-wrap{
+    position: relative;
+    margin-top: 0px;
+    /* margin: auto; */
+    width: 100%;
+    height: 50em;
+    overflow: hidden;
+}
+
+.bg-image-wrap img{
+    position: relative;
+    height: auto;
+}
+
+.bg-image-wrap:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.bg-image-wrap .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.50);
+    /* clip-path: polygon(0 0, 100% 0, 0 100%, 0 0); */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    /* background: rgba(0, 0, 0, 0.5) no-repeat center center/cover; */
+}
+
+.bg-image-wrap:hover .overlay{
+    opacity: 1;
+}
+
+
+.bg-image-wrap:nth-child(even) .overlay{
+    clip-path: polygon(0 0, 20em 0, calc(50% - 6em) 50%, 20em 100%, 0 100%);
+
+}
+
+.bg-image-wrap:nth-child(odd) .overlay{
+    clip-path: polygon(100% 0, calc(100% - 20em) 0, 50% 50%, calc(100% - 20em) 100%, 100% 100%);
+}
+
+.bg-image-wrap .text-box{
+    position: relative;
+    /* bottom: 2em; */
+    /* left: 1em; */
+    max-width: 30em;
+    font-family: sans-serif;
+}
+
+.bg-image-wrap:nth-child(even) .text-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25% 8%;
+}
+
+.bg-image-wrap:nth-child(odd) .text-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 25% 8%;
+}
+
+.bg-image-wrap .text-box h1{
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.bg-image-wrap .text-box p{
+    color: black;
+    font-size: 1em;
+}
+
+.bg-image-wrap button{
+    width: 60%;
+    color:black;
+    margin-top: 3em;
+    font-size: 1.25em;
+    display: inline-block;
+    padding: 1em 1.5em;
+    border: 2px solid;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bg-image-wrap button:hover{
+    background: black;
+    color: white;
+}

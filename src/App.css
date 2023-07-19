@@ -1,0 +1,90 @@
+.App {
+  /* text-align: center; */
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.flex-body{
+  width: 100%;
+}
+
+.parallax {
+  min-height: 500px;
+  /* background-image: url("http://localhost:3000/parallax-bg.jpg"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateZ(0);
+}
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-wrapper-no-space{
+  display: flex;
+}
+
+.card-wrapper-no-space .card{
+  margin: 0;
+  width: 33.33%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.flex-body{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}

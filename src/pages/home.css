@@ -1,0 +1,118 @@
+.split-half{
+    display: flex;
+    width: 100%;
+    height: 40em;
+    overflow: hidden;
+  
+  }
+  
+  .split-half .left{
+    width: 50%;
+    height: 40em;
+  }
+  
+  .split-half .right{
+    width: 50%;
+    height: 40em;
+  }
+  
+  
+  .grid-2-2{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 0;
+  }
+  .carousel-root{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .carousel.carousel-slider{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: relative;
+  }
+
+  .carousel-slider{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
+
+  .carousel button{
+    display: none;
+  }
+
+  .control-dots{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    right: 0;
+    /* z-index: 20; */
+    transform: translateY(-90%) translatex(65%) rotate(-90deg);
+  }
+  .slider-wrapper{
+    overflow: hidden;
+    height: 100%;
+  }
+
+
+  .slide img{
+    width: 100%;
+  }
+  .slide{
+    overflow: hidden;
+  }
+  .carousel .control-dots .dot {
+    /* margin: 0 0.5em; Adjust the value to add spacing between the dots */
+    width: 14px !important; /* Increase the width of the dot */
+    height: 14px !important; /* Increase the height of the dot */
+    background-color: #ccc; /* Customize the dot color */
+    border-radius: 60%; /* Make the dot circular */
+    cursor: pointer;
+    transform: translateY(-300%) translatex(00%) rotate(-90deg);
+  }
+  @media only screen and (max-width: 900px) {
+    .control-dots{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      right: 0;
+      /* z-index: 20; */
+      transform: translateY(-90%) translatex(60%) rotate(-90deg);
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .control-dots{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      right: 0;
+      /* z-index: 20; */
+      transform: translateY(-70%) translatex(62%) rotate(-90deg);
+    }
+  }
+  @media only screen and (max-width: 430px) {
+    .control-dots{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      right: 0;
+      /* z-index: 20; */
+      transform: translateY(-80%) translatex(60%) rotate(-90deg);
+    }
+  } 
+  @media only screen and (max-width: 400px) {
+    .control-dots{
+      position: absolute;
+      left: 0;
+      top: 50%;
+      right: 0;
+      /* z-index: 20; */
+      transform: translateY(-70%) translatex(60%) rotate(-90deg);
+    }
+  } 
+  

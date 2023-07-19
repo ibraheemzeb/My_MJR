@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmalam_jabba_resorts=self.webpackChunkmalam_jabba_resorts||[]).push([[134],{1134:function(a,e,s){s.r(e);s(2791);var n=s(184);e.default=function(){return(0,n.jsxs)("div",{className:"packages",children:[(0,n.jsx)("h1",{children:"Packages"}),(0,n.jsx)("p",{children:"Page in development"})]})}}}]);
+//# sourceMappingURL=134.6ff3b4fd.chunk.js.map

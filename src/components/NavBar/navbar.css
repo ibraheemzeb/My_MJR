@@ -1,0 +1,59 @@
+.navbar {
+    position: relative;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    height: 60px;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+
+  /* Logo on the left */
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .navbar .logo:hover{
+    cursor: pointer;
+  }
+
+  /* Hamburger menu on the right */
+  .navbar .hamburger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+  }
+
+  /* Center-aligned navbar links */
+  .navbar .nav-links {
+    margin-top: 15px;
+    padding-right: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+
+  }
+
+  /* Navbar link items */
+  .navbar .nav-links a {
+    /* color: #333; */
+
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+
+  /* on hover enlarge with animation */
+  .navbar .nav-links a:hover {
+    transform: scale(2);
+    transition: all 0.5s ease; 
+  }

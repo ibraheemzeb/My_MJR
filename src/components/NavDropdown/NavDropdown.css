@@ -1,0 +1,14 @@
+.nav-dropdown{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    border-color: aquamarine;
+    background-color: #094e9d;
+    color: white;
+    padding: 1em;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}

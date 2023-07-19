@@ -1,0 +1,29 @@
+.footer{
+    width:100%;
+    height: fit-content;
+    padding-bottom: 2em;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.child{
+    max-width: 10em;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}

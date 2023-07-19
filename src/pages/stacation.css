@@ -1,0 +1,61 @@
+.staction-cover{
+    display: flex;
+    flex-direction: row;   
+}
+
+.header-image-overlay{
+    width:100%;
+    height: 100%;
+    padding-bottom: 2em;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-size: cover;
+    position: relative;
+}
+
+/* .header-image-overlay .text-box{
+    max-width: 25em;
+    padding-top: 30em;
+    padding-bottom: 20em;
+} */
+
+.header-image-overlay h1{
+color: white;
+}
+
+
+.header-image-overlay p{
+    color: white;
+    }
+    
+    
+.parallax-bg {
+    margin-top: 2em;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    min-height: 500px;
+    /* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* z-index: -1; */
+    transform: translateZ(0);
+}
+
+.text-container-parallax{
+    color: white;
+    padding-top: 5em;
+}
+
+.parallax-bg button{
+    margin: 2em 2em;
+    padding: 2em 2em;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.parallax-bg button:hover{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.75);
+}

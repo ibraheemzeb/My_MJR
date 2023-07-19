@@ -1,0 +1,38 @@
+.carousel{
+    position: relative;
+    width: 100%;
+    height: 40em;
+    overflow: hidden;
+    /* transform: rotate(90deg); */
+}
+
+.carousel .slide{
+    width: 100%;
+}
+
+
+.carousel .carousel-item{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel .carousel-caption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.sponsors {
+  display: flex;
+  justify-content: space-around;
+  /* height: 7em; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: #094e9d;
+}
+
+.sponsors button {
+  /* padding: 1em; */
+  margin-left: 0.25em;
+  border-radius: 0.25em;
+  border-color: white;
+  color: white;
+  outline: none;
+  height: 5em;
+}
+
+.sponsors input {
+  padding: 1em;
+  margin-top: 1em;
+  border-color: white;
+  color: white;
+}

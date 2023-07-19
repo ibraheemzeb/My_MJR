@@ -1,0 +1,23 @@
+.vertical-dots {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .vertical-dots li {
+    transform: rotate(90deg);
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  
+  .vertical-dots li button:before {
+    content: "•";
+    font-size: 14px;
+    display: none;
+  }
+
+  .vertical-dots li button{
+    display: none;
+  }
+  
